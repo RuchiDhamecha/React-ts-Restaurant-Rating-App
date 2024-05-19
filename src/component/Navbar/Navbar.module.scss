@@ -1,0 +1,21 @@
+ @import '../../styles/_partials.module.scss';
+ 
+ .Navbar{
+    border-bottom: 1px solid #259ec6;
+    padding :1rem 3rem;
+    background-color: $blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    // position: fixed;
+    // width: 100%;
+    // box-sizing: border-box;
+    gap: 1rem;
+    .Logo{
+        height: 3.25rem;
+        width: 3.25rem;
+     }
+     h3{
+        color: white;
+     }
+ }

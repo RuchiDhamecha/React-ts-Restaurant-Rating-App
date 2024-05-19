@@ -1,0 +1,12 @@
+@import '../../styles/_partials.module.scss';
+ .Homepage{
+    padding:4rem 6rem;
+    display: flex;
+    
+}
+button{
+     margin-top: 9rem;
+   @extend %button
+ }
+
+

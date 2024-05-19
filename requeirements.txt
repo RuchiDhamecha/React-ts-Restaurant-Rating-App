@@ -1,0 +1,42 @@
+Requirements
+User Authentication 
+Sign-Up - 
+	input- username, password
+	output- successful/failed
+Ruchi- validation signup credentials, screen
+Amit - auth Routes: /auth/signup
+
+Login-
+	input- username, email, password
+	output- successful/failed
+Ruchi- validation Login credentials, screen
+Amit - auth routes: /auth/login
+
+View Hotels
+Hotel names, cuisine, location
+ruchi-screen
+Amit - /hotel/
+
+Rate Hotels + Feedback (By User)
+display a Feedback form for selected hotel.
+Form inputs-
+	Ratings- number from 0 to 5
+	Feedback- string (textarea)
+output-
+	submit data 
+
+ruchi - Hotels + Feedback form values, display screen
+Amit - /hotel/:hotelId/review
+Admin CRUD Operations on 
+Create - Restaurant
+Update- Reastaurant
+Delete- Restaurant, User, User Feedback
+
+ruchi- admin screens
+Amit - CRUD routes
+Users Dashboard
+displays username , all feedback and rating given to each restaurant
+	ruchi- disply screen
+
+
+

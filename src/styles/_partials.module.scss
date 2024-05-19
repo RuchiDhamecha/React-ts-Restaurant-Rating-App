@@ -1,0 +1,16 @@
+
+
+$blue: #73C2FB;
+$light-blue:#ecf0f9;
+
+%button{
+    padding: 1rem 2rem;
+    font-size: medium;
+    border:1px solid rgb(252, 252, 252);
+    margin: 3rem 2rem 0 0;
+    box-shadow: 1px 1px 8px 4px #ecf0f9;
+    background-color: $blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}

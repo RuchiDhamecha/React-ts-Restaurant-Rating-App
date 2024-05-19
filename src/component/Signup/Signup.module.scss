@@ -1,0 +1,35 @@
+ 
+@import '../../styles/_partials.module.scss';
+ 
+.Body{
+    background-color: #ecf0f9;
+
+
+ .Signup{
+    margin: 2rem 5rem 2rem 32rem;
+    display: inline-block;
+    align-items: center;
+    border: 2px solid $blue;
+    background-color: white;
+    border-radius: 8px;
+    justify-content: center;
+    padding: 4rem;
+
+    
+    h3{
+        color: $blue;
+    }
+    input{
+        padding: 0.75rem 2rem;
+        margin-top: 1rem;
+        border-radius: 4px;
+        border:transparent;
+        box-shadow: 0 0 4px 4px #ecf0f9;
+
+    }
+   
+ }
+ button{
+    @extend %button
+}
+}

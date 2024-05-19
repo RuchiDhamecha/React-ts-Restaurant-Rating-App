@@ -1,0 +1,15 @@
+.Main{
+    display: flex;
+    gap: 1rem;
+    
+    // min-height: 90vh;
+    // max-height: 90vh;
+    
+    .list{
+        flex:1
+    }
+    .from{
+        flex:1
+    }
+
+}
